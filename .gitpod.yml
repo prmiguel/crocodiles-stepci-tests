@@ -1,0 +1,9 @@
+tasks:
+  - name: Step CI
+    before: |
+      node --version
+      npm --version
+      npm install -g stepci
+vscode:
+  extensions:
+    - redhat.vscode-yaml
